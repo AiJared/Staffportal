@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'corsheaders',
     #local applications
     'accounts.apps.AccountsConfig',
+    'api.apps.ApiConfig',
 ]
 
 PHONENUMBER_DB_FORMAT = 'NATIONAL'

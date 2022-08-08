@@ -70,7 +70,7 @@ class ResetPasswordEmailRequestSerializer(serializers.Serializer):
         return attrs
 
 class SetNewPasswordSerializer(serializers.Serializer):
-    password = serializers.CharField(min_length=8, max_lenth=30, write_only=True)
+    password = serializers.CharField(min_length=8, max_length=30, write_only=True)
     password_confirmation = serializers.CharField(
         min_length=8, max_length=30, write_only=True
     )
